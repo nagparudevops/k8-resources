@@ -17,7 +17,7 @@ spec:
     tier: frontend
     component: frontend
     #this is pod defination, pos is subset of replicaset
-template: 
+  template: 
   metadata:
     labels:
       project: roboshop
