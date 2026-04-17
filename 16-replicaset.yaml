@@ -11,7 +11,7 @@ spec:
   replicas: 1
   selector:
   #using these labels replica set selects the pod
-matchLabels:
+  matchLabels:
     project: roboshop
     purpose: rs-demo
     tier: frontend
