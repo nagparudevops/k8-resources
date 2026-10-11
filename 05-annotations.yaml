@@ -9,8 +9,7 @@ metadata:
      annotations:
        imageregistry: "https:hub.docker.com"
        jenjinsURL: "https://jenkins.joindevops.com/build/joindevops"
-
-    spec:
+  spec:
       containers:
       - name: nginx
         image: nginx     
